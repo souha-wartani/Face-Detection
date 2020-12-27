@@ -20,7 +20,7 @@ while True:
     cv2.imshow('Face detector',frame)
     key = cv2.waitKey(1)
     
-    ###stop if 0 key is pressed
+    ###stop if q key is pressed
     if key==81 or key==113:
         break
 
